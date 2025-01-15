@@ -71,8 +71,18 @@ body {
 
 button {
     font-family: 'Cabin';
+    font-size: 20px;
     border: none;
     padding: 1%;
     margin: 1%;
     border-radius: 7px;
+}
+
+/* Adjusted font-size of h2 and p elements */
+h2 {
+  font-size: 20px;
+}
+
+p {
+  font-size: 20px;
 }
