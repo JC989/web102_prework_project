@@ -37,7 +37,7 @@ function addGamesToPage(games) {
     game_card_display.classList.add("game-card");
     game_card_display.innerHTML =`
       <img src=${game.img} alt="${game.name}" class = "game-img" /> 
-      <p>${game.name}</p>
+      <h1>${game.name}</h1>
       <p>${game.description}</p>
       <p> Backers: ${game.backers}</p>
     `;
