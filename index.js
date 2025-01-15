@@ -46,11 +46,9 @@ function addGamesToPage(games) {
     // TIP: if your images are not displaying, make sure there is space
     // between the end of the src attribute and the end of the tag ("/>")
      
-
     // append the game to the games-container
     document.querySelector('#games-container').appendChild(game_card_display);
   }
-
 }
 
 
@@ -130,7 +128,7 @@ function showAllGames() {
   deleteChildElements(gamesContainer);
 
   // add all games from the JSON data to the DOM
-
+  addGamesToPage(GAMES_JSON);
 }
 
 // select each button in the "Our Games" section
