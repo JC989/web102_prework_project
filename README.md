@@ -19,7 +19,8 @@ The following **optional** features are implemented:
 
 * [X] List anything else that you can get done to improve the app functionality!
 
-Added feature allowing user to immediately scroll from top of page to the listed games section
+  * Added feature allowing user to immediately scroll from top of page to the listed       games section.
+  * Changed several colors and readjusted font size of text. 
 
 ## Video Walkthrough
 
